@@ -71,6 +71,9 @@
             </div>
         </nav>
 
+        <div class="container">
+            @include('layouts.partials._alert')
+        </div>
         @yield('content')
     </div>
 
